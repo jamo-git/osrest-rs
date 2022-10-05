@@ -1,0 +1,14 @@
+[package]
+name = "osrest"
+version = "0.1.0"
+authors = ["Jamo <spitti.roska@gmail.com>"]
+edition = "2021"
+license = "MIT"
+description = "REST Api to request OS name and version for Windows & Linux"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket = { version = "0.5.0-rc.2", features = ["json"] }
+serde = "1.0.145"
+regex = "1.6.0"
